@@ -1,1 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="每日行业资讯，实时更新" />
+  <title>行业资讯日报 - 2025年11月1日</title>
+  <style>
+    :root {
+      --theme-color: #1a73e8;
+      --bg-color: #f3f6fb;
+      --text-main: #222;
+      --text-sub: #666;
+      --text-light: #999;
+      --card-bg: #fff;
+    }
 
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Arial, sans-serif;
+      background-color: var(--bg-color);
+      margin: 0;
+      padding: 0;
+      color: var(--text-main);
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border-radius: 14px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+      margin-top: 30px;
+      padding: 22px 20px 40px;
+    }
+
+    header {
+      background: linear-gradient(90deg, var(--theme-color), #4a90e2);
+      color: white;
+      border-radius: 10px;
+      padding: 18px 16px;
+      box-shadow: 0 2px 10px rgba(26, 115, 232, 0.3);
+    }
+
+    header h1 {
+      font-size: 20px;
+      margin: 0;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    header .date {
+      font-size: 14px;
+      margin-top: 8px;
+      opacity: 0.9;
+    }
+
+    .news-section-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: var(--text-main);
+      margin-top: 30px;
+      margin-bottom: 14px;
+      border-left: 4px solid var(--theme-color);
+      padding-left: 8px;
+    }
+
+    .news-item {
+      border-bottom: 1px dashed #e0e0e0;
+      padding-bottom: 14px;
+      margin-bottom: 14px;
+      animation: fadeIn 0.5s ease;
+    }
+
+    .news-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 6px;
+      line-height: 1.4;
+    }
+
+    .news-time {
+      font-size: 12px;
+      color: var(--text-light);
+      margin-bottom: 8px;
+    }
+
+    .news-content {
+      font-size: 14px;
+      color: var(--text-sub);
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .news-link {
+      display: inline-block;
+      margin-top: 6px;
+      font-size: 13px;
+      color: var(--theme-color);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .news-link:hover {
+      color: #0b57d0;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-light);
+      margin-top: 40px;
+      border-top: 1px solid #eee;
+      padding-top: 15px;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        border-radius: 0;
+        margin-top: 0;
+        box-shadow: none;
+      }
+
+      header {
+        border-radius: 0;
+        text-align: center;
+      }
+
+      .news-title {
+        font-size: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📡 行业资讯日报</h1>
+      <div class="date">发布日期：2025年11月1日</div>
+    </header>
+
+    <main class="news-list">
+      <div class="news-item">
+        <div class="news-title">人工智能技术突破自动驾驶安全边界</div>
+        <div class="news-time">2025-11-01 15:30</div>
+        <div class="news-content">
+          最新研究显示，基于多模态感知的AI算法在复杂城市道路场景中测试通过率提升至98.7%，为自动驾驶商业化落地奠定基础。
+        </div>
+        <a href="https://example.com/news1" class="news-link">阅读更多 →</a>
+      </div>
+      <div class="news-item">
+        <div class="news-title">元宇宙产业联盟成立推动标准统一</div>
+        <div class="news-time">2025-11-01 14:15</div>
+        <div class="news-content">
+          包括腾讯、Meta等20家企业的联盟宣布将制定统一的XR设备交互标准，预计明年Q2发布首个行业规范草案。
+        </div>
+        <a href="https://example.com/news2" class="news-link">阅读更多 →</a>
+      </div>
+      <div class="news-item">
+        <div class="news-title">量子计算芯片实现商业化生产</div>
+        <div class="news-time">2025-11-01 13:45</div>
+        <div class="news-content">
+          国内首条量子芯片生产线在无锡投产，预计年产能达1000片，将优先供应金融、医疗等重点领域。
+        </div>
+        <a href="https://example.com/news3" class="news-link">阅读更多 →</a>
+      </div>
+      <div class="news-item">
+        <div class="news-title">碳中和目标催生绿色金融新机遇</div>
+        <div class="news-time">2025-11-01 12:20</div>
+        <div class="news-content">
+          央行数据显示，绿色债券发行量同比增长210%，ESG投资规模突破2.5万亿元，成为资本市场新宠。
+        </div>
+        <a href="https://example.com/news4" class="news-link">阅读更多 →</a>
+      </div>
+      <div class="news-item">
+        <div class="news-title">跨境电商政策红利持续释放</div>
+        <div class="news-time">2025-11-01 11:55</div>
+        <div class="news-content">
+          海关总署推出跨境电商零售进口清单扩容政策，新增1500个商品类别，预计带动相关产业增长18%。
+        </div>
+        <a href="https://example.com/news5" class="news-link">阅读更多 →</a>
+      </div>
+      <div class="news-item">
+        <div class="news-title">数字人民币试点范围扩大至28省</div>
+        <div class="news-time">2025-11-01 10:30</div>
+        <div class="news-content">
+          央行宣布将数字人民币试点扩展至全国28个省级行政区，重点测试零售支付、政务服务等场景应用。
+        </div>
+        <a href="https://example.com/news6" class="news-link">阅读更多 →</a>
+      </div>
+    </main>
+
+    <footer>
+      © 2025 行业资讯日报 | 数据来源：36KR新闻
+    </footer>
+  </div>
+</body>
+</html>
